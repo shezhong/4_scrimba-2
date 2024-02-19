@@ -1,4 +1,41 @@
 html, body {
-    margin: 0;
+    margin: 20px;
     padding: 0;
+    font-family:'Lucida Sans', sans-serif
 }
+
+.nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: outset; 
+}
+
+.nav-items {
+    list-style: none;
+    display: inline-flex; 
+    justify-content: space-between; 
+    /* line-height: 45px;  */
+    /* margin-top: 2px; */
+}
+
+.nav-items > li {
+    padding: 20px; 
+    /* line-height: 10px;  */
+}
+
+.MC {
+    line-height: 40px; 
+}
+
+.logo {
+    width: 60px; 
+}
+
+.footer {
+    position: fixed; 
+    bottom: 10px; 
+    right: 20px; 
+    text-align: right; 
+}
+

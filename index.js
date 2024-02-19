@@ -438,4 +438,5 @@ function Page() {
 
 ReactDOM.render(<Page />,document.getElementById("root"))
 
-
+//FOR SOME REASON, unable to make it work when splitting react components into separate files
+// might just skip this for now 

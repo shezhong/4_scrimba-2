@@ -388,24 +388,24 @@ Challenge:
 // import Header from "./Header"
 
 // import ReactDOM from 'react-dom';
-import Header from "./Header.js"; 
+// import Header from "./Header.js"; 
 // import MainContent from "./MainContent"
 // import Footer from "./Footer"
 
-// function Header () {
-//     return (
-//         <header>
-//         <nav className="nav">
-//             <img className="logo" src="./react-logo.png" />
-//             <ul className="nav-items">
-//                 <li>Pricing</li>
-//                 <li>About</li>
-//                 <li>Contact</li>
-//             </ul>
-//         </nav>
-//         </header>
-//     )
-// }
+function Header () {
+    return (
+        <header>
+        <nav className="nav">
+            <img className="logo" src="./react-logo.png" />
+            <ul className="nav-items">
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        </header>
+    )
+}
 
 function MainContent () {
     return (
@@ -439,4 +439,9 @@ function Page() {
 ReactDOM.render(<Page />,document.getElementById("root"))
 
 //FOR SOME REASON, unable to make it work when splitting react components into separate files
-// might just skip this for now 
+// might just skip this for now, keep it all in index.js
+
+
+
+
+
